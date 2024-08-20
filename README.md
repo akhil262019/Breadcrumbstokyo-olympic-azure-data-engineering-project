@@ -3,6 +3,7 @@
 
 Overview
 This project demonstrates an end-to-end data engineering pipeline on Azure for analyzing data related to the Tokyo Olympic Games. The architecture leverages various Azure services to ingest, store, transform, analyze, and visualize data, providing insights through interactive dashboards.
+![Architecture](https://github.com/user-attachments/assets/e8f9ad7a-02ae-4953-bfa5-284811f038b6)
 
 Architecture
 1. Data Source
