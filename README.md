@@ -44,13 +44,21 @@ Description: The final insights and analytics are visualized using interactive d
 Features:
 Customizable dashboards with real-time data.
 Various visualization options to represent the data effectively.
+
 Technologies Used
+
 Azure Data Factory: Data ingestion and ETL processes.
+
 Azure Data Lake Gen 2: Scalable storage for raw and transformed data.
+
 Azure Databricks: Data processing and transformation.
+
 Azure Synapse Analytics: Data analysis and querying.
+
 Power BI, Looker Studio, Tableau: Data visualization and dashboarding.
+
 How to Run the Project
+
 Prerequisites:
 
 Azure Subscription
@@ -59,11 +67,17 @@ Azure Databricks, Data Lake, Synapse Analytics, and Data Factory services enable
 Steps:
 
 Set up Azure Data Factory to ingest data from your data sources into Azure Data Lake Gen 2.
+
 Use Azure Databricks to transform and process the ingested data.
+
 Store the processed data back into Azure Data Lake Gen 2.
+
 Query the processed data using Azure Synapse Analytics to derive insights.
+
 Create dashboards using Power BI, Looker Studio, or Tableau to visualize the data.
+
 Conclusion
+
 This project illustrates how to build a scalable and efficient data engineering pipeline on Azure, leveraging its various services to handle large-scale data from ingestion to visualization. The architecture is modular and can be adapted to various other data engineering use cases beyond Olympic data analytics.
 
 
