@@ -7,33 +7,34 @@ This project demonstrates an end-to-end data engineering pipeline on Azure for a
 
 Architecture
 1. Data Source
-Description: The data source represents the raw data related to the Tokyo Olympic Games, which could include event results, athlete information, country performance, etc.
-Examples: CSV files, JSON files, databases, or streaming data from APIs.
-2. Data Ingestion
+Description: The data source represents the raw data related to the Tokyo Olympic Games, which  include 11,000 athelets,with 47 disciplines, along with 743 Teams taking part in the 2021(2020) Tokyo Olympics.This dataset contains the details of the Athletes, Coaches, Teams participating as well as the Entries by gender. It contains their names, countries represented, discipline, gender of competitors, name of the coaches.
+Source(Kaggle):[2021 Olympics in Tokyo](https://www.kaggle.com/datasets/arjunprasadsarkhel/2021-olympics-in-tokyo)
+
+3. Data Ingestion
 Service: Azure Data Factory
 Description: Azure Data Factory is used for orchestrating and automating the data movement from the source into Azure. It facilitates the ETL (Extract, Transform, Load) processes.
 Steps:
 Connect to various data sources.
 Copy the raw data to a centralized data storage.
-3. Raw Data Store
+4. Raw Data Store
 Service: Azure Data Lake Gen 2
 Description: The raw data is stored in Azure Data Lake Gen 2, a scalable and secure data lake solution for high-volume data storage. The data is stored in its original format for future processing.
-4. Data Transformation
+5. Data Transformation
 Service: Azure Databricks
 Description: Azure Databricks is utilized to transform and process the raw data. It enables large-scale data processing using Apache Spark and allows for advanced analytics, machine learning, and real-time streaming.
 Steps:
 Cleanse and normalize the raw data.
 Perform aggregations, computations, and other transformations.
-5. Transformed Data Store
+6. Transformed Data Store
 Service: Azure Data Lake Gen 2
 Description: The transformed data is stored back into Azure Data Lake Gen 2 for further analysis. This allows for separation of raw and processed data.
-6. Data Analytics
+7. Data Analytics
 Service: Azure Synapse Analytics
 Description: Azure Synapse Analytics is used to query and analyze the transformed data. It offers an integrated experience for data preparation, management, and serving data for business intelligence.
 Steps:
 Load transformed data from Azure Data Lake.
 Run complex queries and generate insights.
-7. Dashboarding and Reporting
+8. Dashboarding and Reporting
 Services:
 Power BI
 Looker Studio
