@@ -1,4 +1,4 @@
-**Tokyo Olympic Data Analytics | End-To-End Azure Data Engineering Project**
+#**Tokyo Olympic Data Analytics | End-To-End Azure Data Engineering Project**
 
 
 Overview
@@ -66,4 +66,4 @@ Create dashboards using Power BI, Looker Studio, or Tableau to visualize the dat
 Conclusion
 This project illustrates how to build a scalable and efficient data engineering pipeline on Azure, leveraging its various services to handle large-scale data from ingestion to visualization. The architecture is modular and can be adapted to various other data engineering use cases beyond Olympic data analytics.
 
-# Tokyo-olympic-azure-data-engineering-project
+
